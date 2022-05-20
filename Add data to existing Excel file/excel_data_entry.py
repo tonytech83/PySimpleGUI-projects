@@ -12,9 +12,8 @@ layout = [
     [sg.Text("Date", size=(10, 1)), sg.InputText(key="DATE")],
     [sg.Text("Exchange", size=(10, 1)), sg.Combo(["Kraken", "eToro", "Binance"], key="EXCHANGE")],
     [sg.Text("Asset", size=(10, 1)), sg.InputText(key="ASSET")],
-    #    [sg.Text("Open Price", size=(10, 1)), sg.InputText(key="OPENPRICE")],
     [sg.Text("Units", size=(10, 1)), sg.InputText(key="UNITS")],
-    [sg.Text("Invest", size=(10, 1)), sg.InputText(key="INVEST")],
+    [sg.Text("Price", size=(10, 1)), sg.InputText(key="PRICE")],
     [sg.Text("Type", size=(10, 1)), sg.Combo(["Reward", "Buy", "Sell"], key="TYPE")],
     [sg.Submit(), sg.Button("Clear"), sg.Exit()]
 ]
